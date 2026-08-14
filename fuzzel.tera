@@ -1,0 +1,21 @@
+---
+whiskers:
+  version: ^2.5.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/evergarden-{{flavor.identifier}}-{{accent}}.ini"
+  hex_format: "{{r}}{{g}}{{b}}{{a}}"
+---
+[colors]
+background={{ base.hex }}
+text={{ text.hex }}
+prompt={{ subtext1.hex }}
+placeholder={{ overlay1.hex }}
+input={{ text.hex }}
+match={{ flavor.colors[accent].hex }}
+selection={{ surface0.hex }}
+selection-text={{ text.hex }}
+selection-match={{ flavor.colors[accent].hex }}
+counter={{ overlay1.hex }}
+border={{ flavor.colors[accent].hex }}
