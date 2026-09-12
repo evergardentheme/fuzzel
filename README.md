@@ -1,6 +1,6 @@
 <h3 align="center">
   <img src="https://codeberg.org/evergarden/.profile/raw/branch/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
-  Evergarden for <a href="https://codeberg.org/dnkl/fuzzel">fuzzel</a>
+  Evergarden for <a href="https://codeberg.org/dnkl/fuzzel">Fuzzel</a>
 </h3>
 
 <p align="center">
@@ -9,6 +9,9 @@
   </a>
   <a href="https://codeberg.org/evergarden/fuzzel/issues">
     <img src="https://img.shields.io/gitea/issues/open/evergarden/fuzzel?gitea_url=https%3A%2F%2Fcodeberg.org&style=for-the-badge&colorA=2B3337&colorB=F7A182">
+  </a>
+  <a href="https://codeberg.org/evergarden/fuzzel/activity/contributors">
+    <img src="https://img.shields.io/github/contributors/evergardentheme/fuzzel?style=for-the-badge&colorA=2B3337&colorB=B3E6DB">
   </a>
 </p>
 
@@ -37,19 +40,11 @@
 
 ### Usage
 
-1. Open your `fuzzel.ini` file, found in `$XDG_CONFIG_HOME/fuzzel/`
-(defaulting to `$HOME/.config/fuzzel/fuzzel.ini` if `$XDG_CONFIG_HOME` is unset).
-
-1. Remove existing `[color]` section if there is one.
-1. Include the flavor and accent combination of your choice from [`themes/`](./themes/) into your 
-   configuration file using `include=<path-to-your-theme-file>` in the main section scope of `fuzzel.ini`.
-   (if you are using Fuzzel >= 1.10) or copy the contents of one of the files (if you are using Fuzzel < 1.10).
-1. Invoke `fuzzel` using a keybinding or from the terminal.
+Copy contents of your preferred variant & accent color from `themes/` into your Fuzzel configuration file
+(usually found in `$XDG_CONFIG_HOME/fuzzel/` or `$HOME/.config/fuzzel/`).
 
 ### Thanks to <3
 
-- [evergarden](https://codeberg.org/evergarden)
-- [catppuccin](https://github.com/catppuccin)
 - [holly](https://codeberg.org/aquifolly)
 
 <hr>
