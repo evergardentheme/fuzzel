@@ -12,6 +12,7 @@ background={{ base.hex }}
 text={{ text.hex }}
 prompt={{ subtext1.hex }}
 placeholder={{ overlay1.hex }}
+message={{ text.hex }}
 input={{ text.hex }}
 match={{ flavor.colors[accent].hex }}
 selection={{ surface0.hex }}
